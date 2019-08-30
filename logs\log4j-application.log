@@ -1,0 +1,225 @@
+2019-08-26 17:06:18 DEBUG ClientClass:65 - This is json body: { "addressNickname": "tesla", "cityName": "beograd", "id": 0, "postalCode": "11000", "regionName": "string", "street": "Mirijevac", "streetAdditional": "string", "userId": 48}
+2019-08-26 17:06:18 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2019-08-26 17:06:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://localhost:5054][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://localhost:5054][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-26 17:06:18 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:5054
+2019-08-26 17:06:18 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:5054
+2019-08-26 17:06:18 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:54220<->127.0.0.1:5054
+2019-08-26 17:06:18 DEBUG MainClientExec:255 - Executing request POST /api/v1/address HTTP/1.1
+2019-08-26 17:06:18 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-08-26 17:06:18 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-08-26 17:06:18 DEBUG headers:133 - http-outgoing-0 >> POST /api/v1/address HTTP/1.1
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 175
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:5054
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_221)
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "POST /api/v1/address HTTP/1.1[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 175[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:5054[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_221)[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:87 - http-outgoing-0 >> "{ "addressNickname": "tesla", "cityName": "beograd", "id": 0, "postalCode": "11000", "regionName": "string", "street": "Mirijevac", "streetAdditional": "string", "userId": 48}"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 201 [\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 26 Aug 2019 15:06:18 GMT[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "a0[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "{"id":79,"street":"Mirijevac","streetAdditional":"string","cityName":"beograd","regionName":"string","postalCode":"11000","addressNickname":"tesla","userId":48}[\r][\n]"
+2019-08-26 17:06:18 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 201 
+2019-08-26 17:06:18 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2019-08-26 17:06:18 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-26 17:06:18 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 26 Aug 2019 15:06:18 GMT
+2019-08-26 17:06:18 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://localhost:5054] can be kept alive indefinitely
+2019-08-26 17:06:18 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://localhost:5054][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-26 17:06:18 DEBUG ClientClass:71 - This is response body: {"id":79,"street":"Mirijevac","streetAdditional":"string","cityName":"beograd","regionName":"string","postalCode":"11000","addressNickname":"tesla","userId":48}
+2019-08-26 17:06:18 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2019-08-26 17:06:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://localhost:5054][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://localhost:5054][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-26 17:06:18 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2019-08-26 17:06:18 DEBUG MainClientExec:255 - Executing request GET /api/v1/address?id=79 HTTP/1.1
+2019-08-26 17:06:18 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-08-26 17:06:18 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-08-26 17:06:18 DEBUG headers:133 - http-outgoing-0 >> GET /api/v1/address?id=79 HTTP/1.1
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:5054
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_221)
+2019-08-26 17:06:18 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "GET /api/v1/address?id=79 HTTP/1.1[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:5054[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_221)[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 26 Aug 2019 15:06:18 GMT[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "a0[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "{"id":79,"street":"Mirijevac","streetAdditional":"string","cityName":"beograd","regionName":"string","postalCode":"11000","addressNickname":"tesla","userId":48}[\r][\n]"
+2019-08-26 17:06:18 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 
+2019-08-26 17:06:18 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2019-08-26 17:06:18 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-26 17:06:18 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 26 Aug 2019 15:06:18 GMT
+2019-08-26 17:06:18 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2019-08-26 17:06:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://localhost:5054] can be kept alive indefinitely
+2019-08-26 17:06:18 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://localhost:5054][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2019-08-26 17:06:18 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/sh.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+2019-08-26 17:06:18 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-reports-with-totals.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:18 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-reports-with-totals.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-reports-with-totals.ftl"
+2019-08-26 17:06:19 DEBUG cache:81 - Could not find template in cache, creating new one; id=["ftl/jbehave-views.ftl"["en_RS",UTF-8,parsed] ]
+2019-08-26 17:06:19 DEBUG cache:81 - Compiling FreeMarker template "ftl/jbehave-views.ftl"["en_RS",UTF-8,parsed]  from "jar:file:/Users/andrija/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-views.ftl"
+2019-08-26 17:07:06 INFO  ClientClass:65 - This is json body: { "addressNickname": "tesla", "cityName": "beograd", "id": 0, "postalCode": "11000", "regionName": "string", "street": "Mirijevac", "streetAdditional": "string", "userId": 48}
+2019-08-26 17:07:06 INFO  ClientClass:71 - This is response body: {"id":80,"street":"Mirijevac","streetAdditional":"string","cityName":"beograd","regionName":"string","postalCode":"11000","addressNickname":"tesla","userId":48}
+2019-08-28 17:22:12 INFO  ClientClass:64 - This is json body: { "addressNickname": "tesla", "cityName": "beograd", "id": 0, "postalCode": "11000", "regionName": "string", "street": "Mirijevac", "streetAdditional": "string", "userId": 48}
+2019-08-28 17:22:25 INFO  ClientClass:64 - This is json body: { "addressNickname": "tesla", "cityName": "beograd", "id": 0, "postalCode": "11000", "regionName": "string", "street": "Mirijevac", "streetAdditional": "string", "userId": 48}
+2019-08-28 17:24:25 INFO  ClientClass:64 - This is json body: { "addressNickname": "tesla", "cityName": "beograd", "id": 0, "postalCode": "11000", "regionName": "string", "street": "Mirijevac", "streetAdditional": "string", "userId": 48}
+2019-08-28 17:24:26 INFO  ClientClass:75 - This is response body: {"id":62,"street":"Mirijevac","streetAdditional":"string","cityName":"beograd","regionName":"string","postalCode":"11000","addressNickname":"tesla","userId":48}
+2019-08-28 17:27:31 INFO  ClientClass:68 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":48}
+2019-08-28 17:27:31 INFO  ClientClass:76 - This is response body: {"id":63,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":48}
+2019-08-29 10:32:29 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":48}
+2019-08-29 10:32:38 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":48}
+2019-08-29 10:33:28 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":48}
+2019-08-29 10:33:28 INFO  ClientClass:70 - This is status line: HTTP/1.1 404 
+2019-08-29 10:33:28 INFO  ClientClass:71 - This is response body: {"errorCode":"catalogue.category.not_found","message":"Something was not found. No such user entity: 48","statusCode":404}
+2019-08-29 10:34:32 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":48}
+2019-08-29 10:34:32 INFO  ClientClass:70 - This is status line: HTTP/1.1 404 
+2019-08-29 10:34:32 INFO  ClientClass:71 - This is response body: {"errorCode":"catalogue.category.not_found","message":"Something was not found. No such user entity: 48","statusCode":404}
+2019-08-29 10:44:43 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 10:44:44 INFO  ClientClass:70 - This is status line: HTTP/1.1 201 
+2019-08-29 10:44:44 INFO  ClientClass:71 - This is response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":63,"userId":49}
+2019-08-29 10:58:56 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 10:59:10 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:01:03 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:05:24 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:05:25 INFO  ClientClass:70 - Body as string: 
+2019-08-29 11:05:38 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:05:38 INFO  ClientClass:70 - Body as string: 
+2019-08-29 11:09:15 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:09:15 INFO  ClientClass:70 - Body as string: {"id":64,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:09:15 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:09:15 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":64,"userId":49}
+2019-08-29 11:09:15 INFO  ClientClass:86 - This is status line: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":64,"userId":49}
+2019-08-29 11:11:03 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:11:03 INFO  ClientClass:70 - Body as string: {"id":65,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:11:03 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:11:03 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":65,"userId":49}
+2019-08-29 11:12:08 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:12:08 INFO  ClientClass:70 - Body as string: {"id":66,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:12:08 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:12:08 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":66,"userId":49}
+2019-08-29 11:12:08 INFO  ClientClass:87 - This is string body {"id":66,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:12:08 INFO  ClientClass:88 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":66,"userId":49}
+2019-08-29 11:13:53 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:13:53 INFO  ClientClass:70 - Body as string: {"id":67,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:13:53 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:13:53 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":67,"userId":49}
+2019-08-29 11:13:53 INFO  ClientClass:87 - This is string body {"id":67,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:13:53 INFO  ClientClass:88 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":67,"userId":49}
+2019-08-29 11:19:36 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:19:36 INFO  ClientClass:70 - Body as string: {"id":68,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:19:36 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:19:36 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":68,"userId":49}
+2019-08-29 11:21:41 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:21:41 INFO  ClientClass:70 - Body as string: {"id":69,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:21:41 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:21:41 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":69,"userId":49}
+2019-08-29 11:21:41 INFO  ClientClass:85 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":69,"userId":49}
+2019-08-29 11:33:40 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 11:33:41 INFO  ClientClass:70 - Body as string: {"id":70,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 11:33:41 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 11:33:41 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":70,"userId":49}
+2019-08-29 12:01:51 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 12:01:51 INFO  ClientClass:70 - Body as string: {"id":71,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 12:01:51 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 12:01:51 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":71,"userId":49}
+2019-08-29 12:01:51 INFO  ClientClass:85 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":71,"userId":49}
+2019-08-29 12:49:46 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 12:49:46 INFO  ClientClass:70 - Body as string: {"id":73,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 12:49:46 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 12:49:46 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":73,"userId":49}
+2019-08-29 12:49:46 INFO  ClientClass:84 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":73,"userId":49}
+2019-08-29 12:50:08 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 12:50:08 INFO  ClientClass:70 - Body as string: {"id":74,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 12:50:08 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 12:50:08 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":74,"userId":49}
+2019-08-29 12:50:08 INFO  ClientClass:84 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":74,"userId":49}
+2019-08-29 12:50:44 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-29 12:50:44 INFO  ClientClass:70 - Body as string: {"id":75,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-29 12:50:44 INFO  ClientClass:72 - Status line: HTTP/1.1 201 
+2019-08-29 12:50:44 INFO  ClientClass:73 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":75,"userId":49}
+2019-08-29 12:50:44 INFO  ClientClass:84 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":75,"userId":49}
+2019-08-30 11:51:23 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-30 11:51:23 INFO  ClientClass:70 - Body as string: {"id":63,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-30 11:51:23 INFO  ClientClass:73 - Status line: HTTP/1.1 201 
+2019-08-30 11:51:23 INFO  ClientClass:74 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":63,"userId":49}
+2019-08-30 11:51:23 INFO  ClientClass:85 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":63,"userId":49}
+2019-08-30 11:53:31 INFO  ClientClass:64 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","postalCode":"11060","regionName":"Serbia","streetAdditional":"Additional","userId":49}
+2019-08-30 11:53:31 INFO  ClientClass:70 - Body as string: {"id":64,"street":"Nikole Tesle","streetAdditional":"Additional","cityName":"Belgrade","regionName":"Serbia","postalCode":"11060","addressNickname":"Tesla","userId":49}
+2019-08-30 11:53:31 INFO  ClientClass:73 - Status line: HTTP/1.1 201 
+2019-08-30 11:53:31 INFO  ClientClass:74 - Response body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":64,"userId":49}
+2019-08-30 11:53:31 INFO  ClientClass:85 - This is json body: {"cityName":"Belgrade","addressNickname":"Tesla","street":"Nikole Tesle","regionName":"Serbia","postalCode":"11060","streetAdditional":"Additional","id":64,"userId":49}

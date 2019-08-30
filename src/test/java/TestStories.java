@@ -56,6 +56,6 @@ public class TestStories extends JUnitStories {
     }
 
     protected List<String> storyPaths() {
-        return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "**/*.story", "**/excluded*.story");
+        return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "AddressTestStory.story", "**/excluded*.story");
     }
 }
