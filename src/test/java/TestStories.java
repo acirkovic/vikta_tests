@@ -15,7 +15,6 @@ import org.jbehave.core.steps.ParameterConverters;
 import org.junit.runner.RunWith;
 import org.jbehave.core.junit.JUnitStories;
 import static org.jbehave.core.io.CodeLocations.codeLocationFromClass;
-import org.jbehave.core.steps.ParameterConverters.ExamplesTableConverter;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
@@ -52,10 +51,10 @@ public class TestStories extends JUnitStories {
 
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new TestSteps());
+        return new InstanceStepsFactory(configuration(), new TestStepsAddress());
     }
 
     protected List<String> storyPaths() {
-        return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "AddressTestStory.story", "**/excluded*.story");
+        return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "**/*.story", "**/excluded*.story");
     }
 }
