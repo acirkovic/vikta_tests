@@ -9,15 +9,7 @@ import java.net.URISyntaxException;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestStepsPaymentCard {
-    private static ClientClass client;
-
-    static {
-        try {
-            client = new ClientClass();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    };
+    private static ClientClass client = new ClientClass();
     private StorageClass storage = new StorageClass();
 
     @Given("a user wants to add new payment card")

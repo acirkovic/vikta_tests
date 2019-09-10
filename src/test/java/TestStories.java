@@ -51,7 +51,8 @@ public class TestStories extends JUnitStories {
 
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new TestStepsAddress());
+//        return new InstanceStepsFactory(configuration(), new TestStepsCategory(), new TestStepsAddress(), new TestStepsImages());
+        return new InstanceStepsFactory(configuration(), new TestStepsCategory(), new TestStepsAddress(), new TestStepsImages());
     }
 
     protected List<String> storyPaths() {
